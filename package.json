@@ -11,9 +11,8 @@
   "version": "1.0.0",
   "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./api/index.js",
-    "dev": "nodemon ./api/index.js"
+     "start" : "cd api && node index.js",
+    "dev" : "cd api && nodemon index.js"
   },
   "author": "Yash Chaudhari",
   "license": "ISC",
