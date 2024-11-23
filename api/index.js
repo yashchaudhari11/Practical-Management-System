@@ -26,3 +26,6 @@ app.use('/practical', practicalRoutes);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+app.get('/', (req, res) => {
+  res.send('Hello, welcome to my API!');
+});
